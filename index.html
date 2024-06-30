@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventory System</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Inventory System</h1>
+    <form id="addItemForm">
+      <input type="text" id="itemName" placeholder="Item Name" required>
+      <input type="number" id="itemQuantity" placeholder="Quantity" required>
+      <input type="number" id="itemPrice" placeholder="Price" step="0.01" required>
+      <button type="submit">Add Item</button>
+    </form>
+    <h2>Inventory List</h2>
+    <ul id="inventoryList"></ul>
+  </div>
+  <script src="./js/app.js"></script>
+</body>
+</html>
